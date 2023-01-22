@@ -5,7 +5,7 @@ export default function Ingredientes(props) {
   return (
 
     <ul>
-        {ingr.map((tipo)=> (<li>{tipo[0]} queseyo {tipo[1]}</li>))}
+        {ingr.map((tipo)=> (<li key={tipo[0]}>{tipo[0]}:  {tipo[1]}</li>))}
         </ul>
   )
 }

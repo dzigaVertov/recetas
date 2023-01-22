@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 export default function Home() {
 
-  const recetas = ["Mousse de Chocolate", "Tarta de crema", "Pan de hamburguesas"];
+  
 
   const recetas_db = {
     mousse_chocolate: {
@@ -26,28 +26,39 @@ export default function Home() {
         manteca : 50
       },
       instrucciones : "Mezclar todo y ponerlo al horno"
+    },
+    tarta_crema: {
+      nombre: 'Tarta de Crema',
+      ingredientes : {
+        sal : 50,
+        harina : 150,
+        crema : 300,
+        manteca : 50
+      },
+      instrucciones : "Mezclar todo y ponerlo al horno"
     }
     
   }
 
-  const [filtro, setFiltro] = useState('');
-  const [nombres_recetas, setNombres_recetas] = useState(recetas);
+  const recetas_entries =  Object.entries(recetas_db);
+  const recetas_keys = Object.keys(recetas_db);
+
+  const [recetas_mostradas, set_recetas_mostradas] = useState(recetas_entries);
+  
+  /* const [nombres_recetas, setNombres_recetas] = useState(recetas_entries.forEach(elem => elem.nombre)); */
 
   function filtrar(event) {
     const filtro = event.target.value;
-    setFiltro(filtro);
-    setNombres_recetas(recetas.filter(elem => elem.toLowerCase().includes(filtro) ));
-
+    const id_nombres = recetas_entries
+    set_recetas_mostradas(recetas_entries.filter(([id, rec]) => rec.nombre.toLowerCase().includes(filtro) ));
   }
 
-
-  
   return (
     <div >
       <h1>Las Recetas de Gómez</h1>
-      <input type='text' value={filtro} onChange={filtrar}></input>
+      <input type='text'  onChange={filtrar}></input>
       <ul>
-        {nombres_recetas.map(elem =>  <li key={elem}><Link to={'/recetas/' + elem}>{elem}</Link></li>)}
+        {recetas_mostradas.map(([id, rec]) =>  <li key={id}><Link to={'/recetas/' + id}>{rec.nombre}</Link></li>)}
       </ul>
  
     </div>
