@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import Receta from './Receta.js'
 import {Link} from 'react-router-dom'
+import { Container } from 'react-bootstrap';
 
 export default function Home() {
 
@@ -38,14 +39,14 @@ export default function Home() {
       instrucciones : "Mezclar todo y ponerlo al horno"
     }
     
-  }
+  };
 
   const recetas_entries =  Object.entries(recetas_db);
   const recetas_keys = Object.keys(recetas_db);
 
   const [recetas_mostradas, set_recetas_mostradas] = useState(recetas_entries);
   
-  /* const [nombres_recetas, setNombres_recetas] = useState(recetas_entries.forEach(elem => elem.nombre)); */
+
 
   function filtrar(event) {
     const filtro = event.target.value;
@@ -54,14 +55,14 @@ export default function Home() {
   }
 
   return (
-    <div >
+    <Container >
       <h1>Las Recetas de Gómez</h1>
       <input type='text'  onChange={filtrar}></input>
       <ul>
         {recetas_mostradas.map(([id, rec]) =>  <li key={id}><Link to={'/recetas/' + id}>{rec.nombre}</Link></li>)}
       </ul>
  
-    </div>
+    </Container>
   );
 }
  

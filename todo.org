@@ -1,2 +1,8 @@
 #+title: TODO RECETAS
-* TODO 
+* TODO Páginas recetas
+** TODO Formato Tarjeta de ingredientes
+** TODO Formato Tarjeta de instrucciones.
+** TODO Controles de cálculo de porcentajes.
+* TODO Página principal
+** TODO Formato lista de recetas
+* TODO Base de datos de recetas
