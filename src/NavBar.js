@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 const NavBar = (props) => {
     return (
         <Container className='my-4'>
-          <Link to='/'>Home</Link>
+          <Link to='/recetas'>Home</Link>
         </Container>
     );
 };
