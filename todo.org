@@ -1,8 +1,15 @@
 #+title: TODO RECETAS
+* TODO Página principal
+** TODO Título arribo sobre fondo de color
+** TODO Título se achica al comenzar a scrollear.
+** TODO Navbar a la derecha de título
+** TODO Lista de categorías para filtrar con fotos redonditas.
+** TODO Input de búsqueda a la derecha de las categorías.
+** TODO Plato del día elegido al azar. A la izquierda.
+** TODO Lista de las recetas en tarjetas con foto a la derecha.
+** TODO Formato lista de recetas
 * TODO Páginas recetas
 ** TODO Formato Tarjeta de ingredientes
 ** TODO Formato Tarjeta de instrucciones.
 ** TODO Controles de cálculo de porcentajes.
-* TODO Página principal
-** TODO Formato lista de recetas
 * TODO Base de datos de recetas

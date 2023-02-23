@@ -1,6 +1,5 @@
-import React, {useState, useEffect} from 'react'
-import Receta from './Receta.js'
-import {Link} from 'react-router-dom'
+import React, {useState, useEffect} from 'react';
+import {Link} from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 
 export default function Home() {
@@ -56,7 +55,6 @@ export default function Home() {
 
   return (
     <Container >
-      <h1>Las Recetas de Gómez</h1>
       <input type='text'  onChange={filtrar}></input>
       <ul>
         {recetas_mostradas.map(([id, rec]) =>  <li key={id}><Link to={'/recetas/' + id}>{rec.nombre}</Link></li>)}

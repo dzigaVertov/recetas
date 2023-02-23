@@ -1,14 +1,18 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import './NavBar.css';
 
-
-const NavBar = (props) => {
+const NavBar = () => {
     return (
-        <Container className='my-4'>
-          <Link to='/recetas'>Home</Link>
-        </Container>
+        <div className='header'>
+            <h1>Las Recetas de Gómez</h1>
+          <div className='link'>  <Link  to='/recetas'>Home</Link></div>
+          <div className='link'>  <Link  to='/recetas'>Home</Link></div>
+          <div className='link'>  <Link  to='/recetas'>Home</Link></div>
+          <div className='link'>  <Link  to='/recetas'>Home</Link></div>
+        </div>
+         
     );
 };
 
-export default NavBar;
+            export default NavBar;
