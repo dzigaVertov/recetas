@@ -3,39 +3,51 @@ import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 const NavBar = () => {
-    const ref = useRef();
+
     const [scrollTop, setScrollTop] = useState(0);
 
 
+    const scrolledHeader = {
+        height: '4rem',
+        transition: 'height 1s',
+
+    };
+
+    const scrolledh1 = {
+        fontSize: '2rem',
+        paddingTop: '0rem',
+        transition: 'font-size 1s, padding-top 1s, margin-top 1s',
+
+    };
+
+
+    const scrolledLink = {
+        paddingTop: '0',
+        transition: 'padding-top 1s',
+    };
+
     useEffect(() => {
         const onscroll = e => {
-            console.log(e.target.documentElement.scrollTop);
             setScrollTop(e.target.documentElement.scrollTop);
-            console.log('estado: ', scrollTop);
         };
-
 
         window.addEventListener('scroll', onscroll);
 
-        console.log(ref.current.scrollTop);
-        console.log('en useEffect');
-
         return () => {
-            console.log('removing event listener');
             window.removeEventListener('scroll', onscroll);
         };
     }, [scrollTop]);
 
     return (
-        <div ref={ref} className='header'>          
-            <h1>Las Recetas de Gómez</h1>
-            
-          <div className='link'>  <Link  to='/recetas'>Home</Link></div>
-          <div className='link'>  <Link  to='/recetas'>Home</Link></div>
-          <div className='link'>  <Link  to='/recetas'>Home</Link></div>
-          <div className='link'>  <Link  to='/recetas'>Home</Link></div>
+        <div className='header' style={scrollTop > 0 ? scrolledHeader : {}}>
+            <h1 style={scrollTop > 0 ? scrolledh1 : {}}><Link to='/recetas'>Las Recetas de Gómez</Link></h1>
+
+            <div className='link' style={scrollTop > 0 ? scrolledLink : {}}>  <Link to='/recetas'>Home</Link></div>
+            <div className='link' style={scrollTop > 0 ? scrolledLink : {}}>  <Link to='/recetas'>Contacto</Link></div>
+            <div className='link' style={scrollTop > 0 ? scrolledLink : {}}>  <Link to='/recetas'>Home</Link></div>
+            <div className='link' style={scrollTop > 0 ? scrolledLink : {}}>  <Link to='/recetas'>Home</Link></div>
         </div >
-         
+
     );
 };
 

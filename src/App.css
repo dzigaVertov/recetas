@@ -5,6 +5,11 @@ body, html, ::after, ::before {
     box-sizing: border-box;
 }
 
+#global {
+    height: 600px;
+    overflow: scroll;
+}
+
 #root {
     height: 200vh;
 }
