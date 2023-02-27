@@ -1,0 +1,9 @@
+.catbar {
+    display: flex;
+    gap:1rem;
+    width: 100%;
+    background-color: orange;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}

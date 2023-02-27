@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import './Home.css';
+import Catbar from './Catbar.js';
 
 export default function Home() {
 
@@ -56,6 +57,7 @@ export default function Home() {
 
     return (
         <Container className='main'>
+          <Catbar/>
             <input type='text' onChange={filtrar}></input>
             <ul>
                 {recetas_mostradas.map(([id, rec]) => <li key={id}><Link to={'/recetas/' + id}>{rec.nombre}</Link></li>)}

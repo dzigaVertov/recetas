@@ -2,7 +2,7 @@
 * TODO Página principal
 ** DONE Título arribo sobre fondo de color
 ** DONE Título se achica al comenzar a scrollear.
-** TODO Navbar a la derecha de título
+** DONE Navbar a la derecha de título
 ** TODO Lista de categorías para filtrar con fotos redonditas.
 ** TODO Input de búsqueda a la derecha de las categorías.
 ** TODO Plato del día elegido al azar. A la izquierda.
