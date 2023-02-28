@@ -1,66 +1,68 @@
-import React, {useState, useEffect} from 'react';
-import {Link} from 'react-router-dom';
-import { Container } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import './Home.css';
+import Catbar from './Catbar.js';
 
 export default function Home() {
 
-  
 
-  const recetas_db = {
-    mousse_chocolate: {
-      nombre: 'Mousse de Chocolate',
-      ingredientes : {
-        sal : 50,
-        harina : 150,
-        crema : 300,
-        manteca : 50
-      },
-      instrucciones : "Mezclar todo y ponerlo al horno"
-    },
-    masa_pizza: {
-      nombre: 'Masa de Pizza',
-      ingredientes : {
-        sal : 50,
-        harina : 150,
-        crema : 300,
-        manteca : 50
-      },
-      instrucciones : "Mezclar todo y ponerlo al horno"
-    },
-    tarta_crema: {
-      nombre: 'Tarta de Crema',
-      ingredientes : {
-        sal : 50,
-        harina : 150,
-        crema : 300,
-        manteca : 50
-      },
-      instrucciones : "Mezclar todo y ponerlo al horno"
+
+    const recetas_db = {
+        mousse_chocolate: {
+            nombre: 'Mousse de Chocolate',
+            ingredientes: {
+                sal: 50,
+                harina: 150,
+                crema: 300,
+                manteca: 50
+            },
+            instrucciones: "Mezclar todo y ponerlo al horno"
+        },
+        masa_pizza: {
+            nombre: 'Masa de Pizza',
+            ingredientes: {
+                sal: 50,
+                harina: 150,
+                crema: 300,
+                manteca: 50
+            },
+            instrucciones: "Mezclar todo y ponerlo al horno"
+        },
+        tarta_crema: {
+            nombre: 'Tarta de Crema',
+            ingredientes: {
+                sal: 50,
+                harina: 150,
+                crema: 300,
+                manteca: 50
+            },
+            instrucciones: "Mezclar todo y ponerlo al horno"
+        }
+
+    };
+
+    const recetas_entries = Object.entries(recetas_db);
+
+    const [recetas_mostradas, set_recetas_mostradas] = useState(recetas_entries);
+
+
+
+    function filtrar(event) {
+        const filtro = event.target.value;
+
+        set_recetas_mostradas(recetas_entries.filter(([id, rec]) => rec.nombre.toLowerCase().includes(filtro)));
     }
-    
-  };
 
-  const recetas_entries =  Object.entries(recetas_db);
-  const recetas_keys = Object.keys(recetas_db);
+    return (
+        <Container className='main'>
+          <Catbar filtrar={filtrar}/>
 
-  const [recetas_mostradas, set_recetas_mostradas] = useState(recetas_entries);
-  
+            <ul>
+                {recetas_mostradas.map(([id, rec]) => <li key={id}><Link to={'/recetas/' + id}>{rec.nombre}</Link></li>)}
+            </ul>
 
-
-  function filtrar(event) {
-    const filtro = event.target.value;
-    const id_nombres = recetas_entries
-    set_recetas_mostradas(recetas_entries.filter(([id, rec]) => rec.nombre.toLowerCase().includes(filtro) ));
-  }
-
-  return (
-    <Container >
-      <input type='text'  onChange={filtrar}></input>
-      <ul>
-        {recetas_mostradas.map(([id, rec]) =>  <li key={id}><Link to={'/recetas/' + id}>{rec.nombre}</Link></li>)}
-      </ul>
- 
-    </Container>
-  );
+        </Container>
+    );
 }
- 
+
