@@ -27,3 +27,5 @@ yarn-error.log*
 /src/App.css~
 /src/Footer.css~
 /src/NavBar.css~
+/src/#App.js#
+/src/.#App.js
