@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Container } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
 import './Home.css';
 import Catbar from './Catbar.js';
 
@@ -43,7 +43,6 @@ export default function Home() {
     };
 
     const recetas_entries = Object.entries(recetas_db);
-    const recetas_keys = Object.keys(recetas_db);
 
     const [recetas_mostradas, set_recetas_mostradas] = useState(recetas_entries);
 
@@ -51,15 +50,14 @@ export default function Home() {
 
     function filtrar(event) {
         const filtro = event.target.value;
-        const id_nombres = recetas_entries;
+
         set_recetas_mostradas(recetas_entries.filter(([id, rec]) => rec.nombre.toLowerCase().includes(filtro)));
     }
 
     return (
         <Container className='main'>
-          <Catbar/>
-          <Button className='botonprueba'>Boton prueba</Button>
-            <input type='text' onChange={filtrar}></input>
+          <Catbar filtrar={filtrar}/>
+
             <ul>
                 {recetas_mostradas.map(([id, rec]) => <li key={id}><Link to={'/recetas/' + id}>{rec.nombre}</Link></li>)}
             </ul>

@@ -4,14 +4,16 @@ import './Catbar.css';
 import Category from './Category.js';
 
 
-const Catbar = () => {
+const Catbar = ({ filtrar }) => {
     return (
         <div className='catbar'>
-          <Category/>
-          <Category/>
-          <Category/>
-          <Category/>
-          
+            <Category />
+            <Category />
+            <Category />
+            <Category />
+
+            <input type='text' onChange={filtrar}></input>
+
         </div>
     );
 };
