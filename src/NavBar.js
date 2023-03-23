@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import './NavBar.css';
+
 
 const NavBar = () => {
 
@@ -28,13 +28,13 @@ const NavBar = () => {
 
     useEffect(() => {
         const onscroll = e => {
-            setScrollTop(e.target.documentElement.scrollTop);
+            setScrollTop(e.target.scrollTop);
         };
-
-        window.addEventListener('scroll', onscroll);
+        const sc = document.querySelector('#root');
+        sc.addEventListener('scroll', onscroll);
 
         return () => {
-            window.removeEventListener('scroll', onscroll);
+            sc.removeEventListener('scroll', onscroll);
         };
     }, [scrollTop]);
 

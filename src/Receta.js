@@ -4,7 +4,6 @@ import recetas_db from './Receta_db.js';
 import { useParams } from "react-router-dom";
 import { Card, Button, Container, Image } from 'react-bootstrap';
 import gato from './assets/cute-cat-photos-1593441022.jpg';
-import './Receta.css';
 
 export default function Receta() {
     const { id } = useParams();

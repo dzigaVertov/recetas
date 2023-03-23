@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
-import './Home.css';
 import Catbar from './Catbar.js';
 import CardHome from './CardHome.js';
 
@@ -20,7 +19,7 @@ export default function Home() {
             },
             instrucciones: "Mezclar todo y ponerlo al horno"
         },
-        masa_pizza: {
+        masa_pizza_1: {
             nombre: 'Masa de Pizza',
             ingredientes: {
                 sal: 50,
@@ -30,6 +29,37 @@ export default function Home() {
             },
             instrucciones: "Mezclar todo y ponerlo al horno"
         },
+        masa_pizza_2: {
+            nombre: 'Masa de Pizza',
+            ingredientes: {
+                sal: 50,
+                harina: 150,
+                crema: 300,
+                manteca: 50
+            },
+            instrucciones: "Mezclar todo y ponerlo al horno"
+        },
+        masa_pizza_3: {
+            nombre: 'Masa de Pizza',
+            ingredientes: {
+                sal: 50,
+                harina: 150,
+                crema: 300,
+                manteca: 50
+            },
+            instrucciones: "Mezclar todo y ponerlo al horno"
+        },
+        masa_pizza_4: {
+            nombre: 'Masa de Pizza',
+            ingredientes: {
+                sal: 50,
+                harina: 150,
+                crema: 300,
+                manteca: 50
+            },
+            instrucciones: "Mezclar todo y ponerlo al horno"
+        },
+        
         tarta_crema: {
             nombre: 'Tarta de Crema',
             ingredientes: {
@@ -56,14 +86,17 @@ export default function Home() {
     }
 
     return (
+        <>
+           <Catbar filtrar={filtrar} />
         <Container className='main'>
-            <Catbar filtrar={filtrar} />
+           
 
           <div className='listaRecetas'>
-            {recetas_mostradas.map(([id, rec]) => <CardHome key={id}><Link to={'/recetas/' + id}>{rec.nombre}</Link></CardHome>)}
+            {recetas_mostradas.map(([id, rec]) => <Link className='link' key={id} to={'/recetas/' + id}><CardHome nombre={rec.nombre} resumen={rec.instrucciones} /></Link>)}
           </div>
 
         </Container>
+        </>
     );
 }
 

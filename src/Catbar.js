@@ -1,6 +1,4 @@
 import React from 'react';
-
-import './Catbar.css';
 import Category from './Category.js';
 
 

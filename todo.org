@@ -7,6 +7,7 @@
 ** DONE Input de búsqueda a la derecha de las categorías.
 ** TODO Lista de las recetas en tarjetas con foto a la derecha.
 ** TODO Lista categorías sticky
+** TODO Arreglar height de lista de categorías
 ** TODO Footer fijo
 ** TODO Plato del día elegido al azar. A la izquierda.
 ** TODO Formato lista de recetas

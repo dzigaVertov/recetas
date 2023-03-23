@@ -1,5 +1,4 @@
 import React from 'react';
-import './Category.css';
 import Image from 'react-bootstrap/Image';
 import gato from './assets/cute-cat-photos-1593441022.jpg';
 
