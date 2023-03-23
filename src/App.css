@@ -31,3 +31,24 @@ body, html, ::after, ::before {
     color: orange;
     background-color: lightblue;
 }
+
+.fotoCardHome {
+    max-width: 400px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.fotoCardHome > * {
+    width: 50%;
+    border-radius: 20px;
+}
+
+.listaRecetas {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: end;
+    padding-top: 2rem;
+}

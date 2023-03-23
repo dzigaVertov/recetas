@@ -57,11 +57,11 @@ export default function Home() {
 
     return (
         <Container className='main'>
-          <Catbar filtrar={filtrar}/>
+            <Catbar filtrar={filtrar} />
 
-
-                {recetas_mostradas.map(([id, rec]) => <CardHome key={id}><Link to={'/recetas/' + id}>{rec.nombre}</Link></CardHome>)}
-
+          <div className='listaRecetas'>
+            {recetas_mostradas.map(([id, rec]) => <CardHome key={id}><Link to={'/recetas/' + id}>{rec.nombre}</Link></CardHome>)}
+          </div>
 
         </Container>
     );
