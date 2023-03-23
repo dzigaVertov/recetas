@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import './Home.css';
 import Catbar from './Catbar.js';
+import CardHome from './CardHome.js';
 
 export default function Home() {
 
@@ -58,9 +59,9 @@ export default function Home() {
         <Container className='main'>
           <Catbar filtrar={filtrar}/>
 
-            <ul>
-                {recetas_mostradas.map(([id, rec]) => <li key={id}><Link to={'/recetas/' + id}>{rec.nombre}</Link></li>)}
-            </ul>
+
+                {recetas_mostradas.map(([id, rec]) => <CardHome key={id}><Link to={'/recetas/' + id}>{rec.nombre}</Link></CardHome>)}
+
 
         </Container>
     );

@@ -32,3 +32,5 @@ yarn-error.log*
 /src/Catbar.js~
 /src/Category.css~
 /src/Category.js~
+/src/#Catbar.css#
+/src/CardHome.js~

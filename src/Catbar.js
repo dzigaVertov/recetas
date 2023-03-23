@@ -11,9 +11,7 @@ const Catbar = ({ filtrar }) => {
             <Category />
             <Category />
             <Category />
-
             <input type='text' onChange={filtrar}></input>
-
         </div>
     );
 };

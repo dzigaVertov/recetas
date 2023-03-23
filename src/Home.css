@@ -4,3 +4,8 @@
     margin:0 !important;
     max-width: 100% !important;
 }
+
+.fotoCardHome {
+    max-width: 100px;
+    border-radius: 20px;
+}
