@@ -12,9 +12,8 @@ body, html, ::after, ::before {
 
 .main {
     padding-inline:0;
-    padding-top: 200px;
-    margin:0;
-    max-width: 100%;
+    padding-top: 19rem;
+    margin-inline: auto;
 }
 
 
@@ -56,15 +55,24 @@ body, html, ::after, ::before {
 
 }
 
-
 .fotoCardHome > * {
     width: 50%;
     border-radius: 20px;
-        margin-left: auto;
+    margin-left: auto;
+}
+
+.textoCardHome {
+    max-width: 200px;
 }
 
 .textoCardHome > * {
     color: black;
+    font-size: 0.9rem;
+}
+
+.textoCardHome > p {
+    color: black;
+    font-size: 1.5rem;
 }
 
 .listaRecetas {
@@ -82,14 +90,17 @@ body, html, ::after, ::before {
     gap:1rem;
     width: 100%;
     background-color: orange;
-    padding: 1rem;
+    padding: 10px;
     align-items: center;
     justify-content: space-around;
-    margin-top: 200px;
+    margin-top: 12rem;
+    transition: margin-top 1s;
 }
 
 .cat {
     width: 5rem;
+    text-align: center;
+    transition: width 1s;
 }
 
 .image {
@@ -107,7 +118,7 @@ p {
     margin: 0px;
     color:white;
     width: 100%;
-    height: 200px;
+    height: 12rem;
     display: flex;
     gap: 1rem;
     justify-content: flex-end;
