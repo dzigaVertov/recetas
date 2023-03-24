@@ -11,7 +11,7 @@ export default function Receta() {
 
 
     return (
-        <Container className='d-grid gap-3'>
+        <Container className='d-grid gap-3 receta'>
             <Card className='cardReceta'>
                 <Card.Body>
 

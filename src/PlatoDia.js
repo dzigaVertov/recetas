@@ -1,12 +1,13 @@
+
 import gato from './assets/cute-cat-photos-1593441022.jpg';
 
-const CardHome = ({ nombre, resumen }) => {
+const PlatoDia = ({nombre, resumen}) => {
     return (
-        <div className='cardHome'>
-            <div className='fotoCardHome'>
+        <div className="platoDia">
+            <div className='fotoPlatoDia'>
                 <img src={gato}></img>
             </div>
-            <div className='textoCardHome'>
+            <div className='textoPlatoDia'>
                 <p>{nombre}</p>
                 <span>{resumen}</span>
             </div>
@@ -14,4 +15,4 @@ const CardHome = ({ nombre, resumen }) => {
     );
 };
 
-export default CardHome;
+export default PlatoDia;
