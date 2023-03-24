@@ -6,9 +6,6 @@ import NavBar from './NavBar.js';
 import Footer from './Footer.jsx';
 import './App.css';
 
-
-
-
 function App() {
 
     return (
