@@ -31,3 +31,4 @@ yarn-error.log*
 /src/.#App.js
 *~
 /.vscode/
+/src/#Catbar.css#
