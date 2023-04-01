@@ -36,3 +36,4 @@ yarn-error.log*
 /src/CardHome.js~
 /src/style.css~
 *~
+/.vscode/

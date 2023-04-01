@@ -1,0 +1,13 @@
+{
+    "type": "module",
+    "name": "cargarDb",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "firebase": "^9.18.0"
+    },
+    "scripts": {
+        "start": "node cargarDb.js",
+        "test": "nodemon -e 'js json'"
+    }
+}
