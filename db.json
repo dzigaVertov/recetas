@@ -1,641 +1,1074 @@
 {
-  "$$data_type": "org-document",
-  "properties": {
-    "title": [
-      "Recetas para la base de datos"
-    ],
-    "filetags": [],
-    "author": [
-      "Marcelo Demian Gómez"
-    ],
-    "creator": "Emacs 27.1 (Org mode 9.3)",
-    "date": [],
-    "description": [],
-    "email": "marcelo@pop-os",
-    "language": "en"
-  },
-  "contents": [
-    {
-      "$$data_type": "org-node",
-      "type": "section",
-      "ref": "orgd3913c0",
-      "properties": {
-        "post-blank": 2,
-        "post-affiliated": 1
-      },
-      "contents": [
-        {
-          "$$data_type": "org-node",
-          "type": "keyword",
-          "ref": "orgd482de4",
-          "properties": {
-            "key": "TITLE",
-            "value": "Recetas para la base de datos",
-            "post-blank": 0,
-            "post-affiliated": 1
-          },
-          "contents": []
-        }
-      ]
-    },
-    {
-      "$$data_type": "org-node",
-      "type": "headline",
-      "ref": "org1c55506",
-      "drawer": {
-      },
-      "properties": {
-        "tags-all": [],
-        "raw-value": "Recetas",
-        "pre-blank": 1,
-        "level": 1,
-        "priority": null,
-        "tags": [],
-        "todo-keyword": null,
-        "todo-type": null,
-        "post-blank": 0,
-        "footnote-section-p": false,
-        "archivedp": false,
-        "commentedp": false,
-        "post-affiliated": 42,
-        "title": [
-          "Recetas"
-        ]
-      },
-      "contents": [
-        {
-          "$$data_type": "org-node",
-          "type": "headline",
-          "ref": "orgea139b1",
-          "drawer": {
-          },
-          "properties": {
-            "tags-all": [],
-            "raw-value": "Nombre",
-            "pre-blank": 0,
-            "level": 2,
-            "priority": null,
-            "tags": [],
-            "todo-keyword": null,
-            "todo-type": null,
-            "post-blank": 1,
-            "footnote-section-p": false,
-            "archivedp": false,
-            "commentedp": false,
-            "post-affiliated": 53,
-            "title": [
-              "Nombre"
-            ]
-          },
-          "contents": [
-            {
-              "$$data_type": "org-node",
-              "type": "section",
-              "ref": "org164fed4",
-              "properties": {
-                "post-blank": 1,
-                "post-affiliated": 64
-              },
-              "contents": [
-                {
-                  "$$data_type": "org-node",
-                  "type": "paragraph",
-                  "ref": "orgbeea779",
-                  "properties": {
-                    "post-blank": 0,
-                    "post-affiliated": 64
-                  },
-                  "contents": [
-                    "Pan de papa para hamburguesas\n"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "$$data_type": "org-node",
-          "type": "headline",
-          "ref": "org7407bc1",
-          "drawer": {
-          },
-          "properties": {
-            "tags-all": [],
-            "raw-value": "Instrucciones",
-            "pre-blank": 0,
-            "level": 2,
-            "priority": null,
-            "tags": [],
-            "todo-keyword": null,
-            "todo-type": null,
-            "post-blank": 1,
-            "footnote-section-p": false,
-            "archivedp": false,
-            "commentedp": false,
-            "post-affiliated": 95,
-            "title": [
-              "Instrucciones"
-            ]
-          },
-          "contents": [
-            {
-              "$$data_type": "org-node",
-              "type": "section",
-              "ref": "org4f5a8d5",
-              "properties": {
-                "post-blank": 1,
-                "post-affiliated": 113
-              },
-              "contents": [
-                {
-                  "$$data_type": "org-node",
-                  "type": "paragraph",
-                  "ref": "org9736ecf",
-                  "properties": {
-                    "post-blank": 0,
-                    "post-affiliated": 113
-                  },
-                  "contents": [
-                    "Hervir y pisar la papa.  Mezclar todos los ingredientes menos la manteca hasta que estén integrados.  Dejar reposar 10 minutos.  Amasar mientras se agrega la manteca.  Bolear trozos de 120gs y colocar en moldes enmantecados.  Pincelar con huevo y leche en partes iguales.  Dejar levar hasta que doblen en tamaño.  Es importante no hornear antes de que hayan terminado de levar para que no rompan en el horno.  Hornear por 15 minutos en el horno a 180ºC y un recipiente con agua en el horno.  Volver a pincelar al sacarlos del horno.  Tip Mica Musre: Para conservar la humedad en caso de freezar es mejor meter los panes al freezer cuando todavía están calientes.\n"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "$$data_type": "org-node",
-          "type": "headline",
-          "ref": "org174cda7",
-          "drawer": {
-          },
-          "properties": {
-            "tags-all": [],
-            "raw-value": "Observaciones",
-            "pre-blank": 0,
-            "level": 2,
-            "priority": null,
-            "tags": [],
-            "todo-keyword": null,
-            "todo-type": null,
-            "post-blank": 1,
-            "footnote-section-p": false,
-            "archivedp": false,
-            "commentedp": false,
-            "post-affiliated": 777,
-            "title": [
-              "Observaciones"
-            ]
-          },
-          "contents": [
-            {
-              "$$data_type": "org-node",
-              "type": "section",
-              "ref": "org750ea80",
-              "properties": {
-                "post-blank": 1,
-                "post-affiliated": 794
-              },
-              "contents": [
-                {
-                  "$$data_type": "org-node",
-                  "type": "paragraph",
-                  "ref": "orgba0d96e",
-                  "properties": {
-                    "post-blank": 0,
-                    "post-affiliated": 794
-                  },
-                  "contents": [
-                    "El porcentaje de agua resulta en general bajo.  Usé 195gs y resultó demasiada hidratación, con una masa dificil de manejar.\n"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "$$data_type": "org-node",
-          "type": "headline",
-          "ref": "orgff5b531",
-          "drawer": {
-          },
-          "properties": {
-            "tags-all": [],
-            "raw-value": "Ingredientes tabla",
-            "pre-blank": 1,
-            "level": 2,
-            "priority": null,
-            "tags": [],
-            "todo-keyword": null,
-            "todo-type": null,
-            "post-blank": 0,
-            "footnote-section-p": false,
-            "archivedp": false,
-            "commentedp": false,
-            "post-affiliated": 919,
-            "title": [
-              "Ingredientes tabla"
-            ]
-          },
-          "contents": [
-            {
-              "$$data_type": "org-node",
-              "type": "section",
-              "ref": "orgbb17cc5",
-              "properties": {
-                "post-blank": 0,
-                "post-affiliated": 942
-              },
-              "contents": [
-                {
-                  "$$data_type": "org-node",
-                  "type": "table",
-                  "ref": "orge32a434",
-                  "properties": {
-                    "type": "org",
-                    "tblfm": null,
-                    "value": null,
-                    "post-blank": 3,
-                    "post-affiliated": 942
-                  },
-                  "contents": [
-                    {
-                      "$$data_type": "org-node",
-                      "type": "table-row",
-                      "ref": "org72dec2b",
-                      "properties": {
-                        "type": "standard",
-                        "post-blank": 0,
-                        "post-affiliated": 942
-                      },
-                      "contents": [
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "org625d91f",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "ingrediente"
-                          ]
-                        },
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "orgb793ac2",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "cantidad"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "$$data_type": "org-node",
-                      "type": "table-row",
-                      "ref": "org1e9a341",
-                      "properties": {
-                        "type": "rule",
-                        "post-blank": 0,
-                        "post-affiliated": 972
-                      },
-                      "contents": []
-                    },
-                    {
-                      "$$data_type": "org-node",
-                      "type": "table-row",
-                      "ref": "org5412298",
-                      "properties": {
-                        "type": "standard",
-                        "post-blank": 0,
-                        "post-affiliated": 1002
-                      },
-                      "contents": [
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "orga1d36f5",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "harina"
-                          ]
-                        },
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "orga8b5b9c",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "500gs"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "$$data_type": "org-node",
-                      "type": "table-row",
-                      "ref": "orgd201bf1",
-                      "properties": {
-                        "type": "standard",
-                        "post-blank": 0,
-                        "post-affiliated": 1032
-                      },
-                      "contents": [
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "org275e401",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "agua"
-                          ]
-                        },
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "org6a65f27",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "135gs"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "$$data_type": "org-node",
-                      "type": "table-row",
-                      "ref": "org5da92dd",
-                      "properties": {
-                        "type": "standard",
-                        "post-blank": 0,
-                        "post-affiliated": 1062
-                      },
-                      "contents": [
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "orged6caeb",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "poolish"
-                          ]
-                        },
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "org9659cab",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "100gs"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "$$data_type": "org-node",
-                      "type": "table-row",
-                      "ref": "orgee7484a",
-                      "properties": {
-                        "type": "standard",
-                        "post-blank": 0,
-                        "post-affiliated": 1092
-                      },
-                      "contents": [
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "org0beb4c6",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "puré"
-                          ]
-                        },
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "orgde5873e",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "120gs"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "$$data_type": "org-node",
-                      "type": "table-row",
-                      "ref": "org9668a40",
-                      "properties": {
-                        "type": "standard",
-                        "post-blank": 0,
-                        "post-affiliated": 1122
-                      },
-                      "contents": [
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "org626e4a6",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "huevo"
-                          ]
-                        },
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "orgb836912",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "55gs"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "$$data_type": "org-node",
-                      "type": "table-row",
-                      "ref": "org8646c39",
-                      "properties": {
-                        "type": "standard",
-                        "post-blank": 0,
-                        "post-affiliated": 1152
-                      },
-                      "contents": [
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "org7828d70",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "manteca"
-                          ]
-                        },
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "org0741de9",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "30gs"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "$$data_type": "org-node",
-                      "type": "table-row",
-                      "ref": "org7f435ed",
-                      "properties": {
-                        "type": "standard",
-                        "post-blank": 0,
-                        "post-affiliated": 1182
-                      },
-                      "contents": [
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "org1da6ba2",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "azúcar"
-                          ]
-                        },
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "org9121d17",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "30gs"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "$$data_type": "org-node",
-                      "type": "table-row",
-                      "ref": "orgcc8444a",
-                      "properties": {
-                        "type": "standard",
-                        "post-blank": 0,
-                        "post-affiliated": 1212
-                      },
-                      "contents": [
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "org2c9242e",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "leche en polvo"
-                          ]
-                        },
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "orgee7772c",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "25gs"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "$$data_type": "org-node",
-                      "type": "table-row",
-                      "ref": "orgcc0539f",
-                      "properties": {
-                        "type": "standard",
-                        "post-blank": 0,
-                        "post-affiliated": 1242
-                      },
-                      "contents": [
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "org3deeb97",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "sal"
-                          ]
-                        },
-                        {
-                          "$$data_type": "org-node",
-                          "type": "table-cell",
-                          "ref": "org2a24be6",
-                          "properties": {
-                            "post-blank": 0
-                          },
-                          "contents": [
-                            "10gs"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "$$data_type": "org-node",
-                  "type": "src-block",
-                  "ref": "orgb89f5ba",
-                  "properties": {
-                    "language": "js",
-                    "switches": null,
-                    "parameters": null,
-                    "number-lines": null,
-                    "preserve-indent": false,
-                    "retain-labels": true,
-                    "use-labels": true,
-                    "label-fmt": null,
-                    "value": "const fs = require('fs/promises');\n\nlet archivojson = fs.readFile('./db.json', {encoding: 'utf8'})\n    .then(res=>JSON.parse(res))\n    .then(res=> {\n        let primerNivel = res.contents[1];\n        // Ingredientes table [\"contents\"][1][\"contents\"][4][\"properties\"][\"title\"][0]\n        console.log(primerNivel.contents[3].properties.title[0]);\n        // 100gs\n        console.log(primerNivel.contents[3].contents[0].contents[0].contents[4].contents[1].contents[0]);\n        // 135gs\n        console.log(primerNivel.contents[3].contents[0].contents[0].contents[3].contents[1].contents[0]);\n        // 500gs\nconsole.log(primerNivel.contents[3].contents[0].contents[0].contents[2].contents[1].contents[0]);\n\n        // 100gs\n        console.log(primerNivel.contents[3].contents[0].contents[0].contents[4].contents[0].contents[0]);\n        // 135gs\n        console.log(primerNivel.contents[3].contents[0].contents[0].contents[3].contents[0].contents[0]);\n        // 500gs\nconsole.log(primerNivel.contents[3].contents[0].contents[0].contents[2].contents[0].contents[0]);\n\n        let encabezados = [];\n        primerNivel.contents.forEach(elem=>(encabezados.push(elem.properties['raw-value'])));\n        encabezados.forEach(elem => {if(elem) console.log(elem);});\n\n        let textos = [];\n        primerNivel.contents.forEach(elem=> {\n            if ( elem.contents[0].contents[0]){\n                textos.push(elem.contents[0].contents[0]);\n            } else {\n                elem.contents.forEach(elem => console.log(elem.properties['raw-value']));\n            }\n            \n\n        });\n\n\n        textos.forEach(elem => {\n            if(elem) {\n                console.log(elem.contents[0]);\n                if (elem.properties.contents){\n                    console.log}(elem.properties.contents);\n                \n            } else {\n                console.log('no hay');\n            }\n        });\n    } );\n\n",
-                    "post-blank": 0,
-                    "post-affiliated": 1275
-                  },
-                  "contents": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+"$$data_type": "org-document",
+"properties": {
+"title": [
+"Recetas para la base de datos"
+],
+"filetags": [],
+"author": [
+"Marcelo Demian Gómez"
+],
+"creator": "Emacs 27.1 (Org mode 9.3)",
+"date": [],
+"description": [],
+"email": "marcelo@pop-os",
+"language": "en"
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "section",
+"ref": "org8a83301",
+"properties": {
+"post-blank": 2,
+"post-affiliated": 1
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "keyword",
+"ref": "org8dad8d8",
+"properties": {
+"key": "TITLE",
+"value": "Recetas para la base de datos",
+"post-blank": 0,
+"post-affiliated": 1
+},
+"contents": []
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "headline",
+"ref": "org4ab6c63",
+"drawer": {
+
+},
+"properties": {
+"tags-all": [],
+"raw-value": "Recetas",
+"pre-blank": 1,
+"level": 1,
+"priority": null,
+"tags": [],
+"todo-keyword": null,
+"todo-type": null,
+"post-blank": 1,
+"footnote-section-p": false,
+"archivedp": false,
+"commentedp": false,
+"post-affiliated": 42,
+"title": [
+"Recetas"
+]
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "headline",
+"ref": "org3d98402",
+"drawer": {
+
+},
+"properties": {
+"tags-all": [],
+"raw-value": "Mousse de chocolate",
+"pre-blank": 1,
+"level": 2,
+"priority": null,
+"tags": [
+"receta"
+],
+"todo-keyword": null,
+"todo-type": null,
+"post-blank": 2,
+"footnote-section-p": false,
+"archivedp": false,
+"commentedp": false,
+"post-affiliated": 53,
+"title": [
+"Mousse de chocolate"
+]
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "headline",
+"ref": "orgc76c49c",
+"drawer": {
+
+},
+"properties": {
+"tags-all": [],
+"raw-value": "Nombre",
+"pre-blank": 0,
+"level": 3,
+"priority": null,
+"tags": [],
+"todo-keyword": null,
+"todo-type": null,
+"post-blank": 1,
+"footnote-section-p": false,
+"archivedp": false,
+"commentedp": false,
+"post-affiliated": 86,
+"title": [
+"Nombre"
+]
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "section",
+"ref": "orga19ecc8",
+"properties": {
+"post-blank": 1,
+"post-affiliated": 97
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "paragraph",
+"ref": "org45805d2",
+"properties": {
+"post-blank": 0,
+"post-affiliated": 97
+},
+"contents": [
+"Mousse de chocolate\n"
+]
+}
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "headline",
+"ref": "org59c696e",
+"drawer": {
+
+},
+"properties": {
+"tags-all": [],
+"raw-value": "Instrucciones",
+"pre-blank": 0,
+"level": 3,
+"priority": null,
+"tags": [],
+"todo-keyword": null,
+"todo-type": null,
+"post-blank": 1,
+"footnote-section-p": false,
+"archivedp": false,
+"commentedp": false,
+"post-affiliated": 118,
+"title": [
+"Instrucciones"
+]
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "section",
+"ref": "org8c29288",
+"properties": {
+"post-blank": 1,
+"post-affiliated": 136
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "paragraph",
+"ref": "org965de85",
+"properties": {
+"post-blank": 0,
+"post-affiliated": 136
+},
+"contents": [
+"Hacer una rica mousse de chocolate\n"
+]
+}
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "headline",
+"ref": "orgdbed92d",
+"drawer": {
+
+},
+"properties": {
+"tags-all": [],
+"raw-value": "Observaciones",
+"pre-blank": 0,
+"level": 3,
+"priority": null,
+"tags": [],
+"todo-keyword": null,
+"todo-type": null,
+"post-blank": 0,
+"footnote-section-p": false,
+"archivedp": false,
+"commentedp": false,
+"post-affiliated": 172,
+"title": [
+"Observaciones"
+]
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "section",
+"ref": "org5954194",
+"properties": {
+"post-blank": 0,
+"post-affiliated": 190
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "paragraph",
+"ref": "org1de97b0",
+"properties": {
+"post-blank": 0,
+"post-affiliated": 190
+},
+"contents": [
+"Que te salga rica\n"
+]
+}
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "headline",
+"ref": "org46480fc",
+"drawer": {
+
+},
+"properties": {
+"tags-all": [],
+"raw-value": "Ingredientes",
+"pre-blank": 1,
+"level": 3,
+"priority": null,
+"tags": [],
+"todo-keyword": null,
+"todo-type": null,
+"post-blank": 0,
+"footnote-section-p": false,
+"archivedp": false,
+"commentedp": false,
+"post-affiliated": 212,
+"title": [
+"Ingredientes"
+]
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "section",
+"ref": "org6796886",
+"properties": {
+"post-blank": 2,
+"post-affiliated": 230
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table",
+"ref": "orgaeaf917",
+"properties": {
+"type": "org",
+"tblfm": null,
+"value": null,
+"post-blank": 0,
+"post-affiliated": 230
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "orgc6f5882",
+"properties": {
+"type": "rule",
+"post-blank": 0,
+"post-affiliated": 230
+},
+"contents": []
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "orgef0e3c0",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 252
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org7f20600",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"Yemas"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org812bead",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"5u"
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "org846ab81",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 274
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org55b7a6c",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"Azúcar"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "orgb1763a4",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"70 gs"
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "org88c3363",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 296
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org8282da1",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"Agua"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "orgf6a6d19",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"50gs"
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "orgfd1ccf6",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 318
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org43ed45d",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"Claras"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org8b9689f",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"5u"
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "org09e9bf0",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 340
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org3d79236",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"Manteca"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org3f97a2c",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"100gs"
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "orgd573f17",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 362
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "orgbc2a768",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"Chocolate"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org65677be",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"250gs"
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "headline",
+"ref": "orge88f1b3",
+"drawer": {
+
+},
+"properties": {
+"tags-all": [],
+"raw-value": "Pan de papa para hamburguesas",
+"pre-blank": 0,
+"level": 2,
+"priority": null,
+"tags": [
+"receta"
+],
+"todo-keyword": null,
+"todo-type": null,
+"post-blank": 0,
+"footnote-section-p": false,
+"archivedp": false,
+"commentedp": false,
+"post-affiliated": 386,
+"title": [
+"Pan de papa para hamburguesas"
+]
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "headline",
+"ref": "org47295be",
+"drawer": {
+
+},
+"properties": {
+"tags-all": [],
+"raw-value": "Nombre",
+"pre-blank": 0,
+"level": 3,
+"priority": null,
+"tags": [],
+"todo-keyword": null,
+"todo-type": null,
+"post-blank": 1,
+"footnote-section-p": false,
+"archivedp": false,
+"commentedp": false,
+"post-affiliated": 464,
+"title": [
+"Nombre"
+]
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "section",
+"ref": "org88f9317",
+"properties": {
+"post-blank": 1,
+"post-affiliated": 476
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "paragraph",
+"ref": "org479f34e",
+"properties": {
+"post-blank": 0,
+"post-affiliated": 476
+},
+"contents": [
+"Pan de papa para hamburguesas\n"
+]
+}
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "headline",
+"ref": "org7d6d62f",
+"drawer": {
+
+},
+"properties": {
+"tags-all": [],
+"raw-value": "Instrucciones",
+"pre-blank": 0,
+"level": 3,
+"priority": null,
+"tags": [],
+"todo-keyword": null,
+"todo-type": null,
+"post-blank": 1,
+"footnote-section-p": false,
+"archivedp": false,
+"commentedp": false,
+"post-affiliated": 508,
+"title": [
+"Instrucciones"
+]
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "section",
+"ref": "org56e07c5",
+"properties": {
+"post-blank": 1,
+"post-affiliated": 527
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "paragraph",
+"ref": "orga7006a9",
+"properties": {
+"post-blank": 0,
+"post-affiliated": 527
+},
+"contents": [
+"Hervir y pisar la papa.  Mezclar todos los ingredientes menos la manteca hasta que estén integrados.  Dejar reposar 10 minutos.  Amasar mientras se agrega la manteca.  Bolear trozos de 120gs y colocar en moldes enmantecados.  Pincelar con huevo y leche en partes iguales.  Dejar levar hasta que doblen en tamaño.  Es importante no hornear antes de que hayan terminado de levar para que no rompan en el horno.  Hornear por 15 minutos en el horno a 180ºC y un recipiente con agua en el horno.  Volver a pincelar al sacarlos del horno.  Tip Mica Musre: Para conservar la humedad en caso de freezar es mejor meter los panes al freezer cuando todavía están calientes.\n"
+]
+}
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "headline",
+"ref": "org354d7ee",
+"drawer": {
+
+},
+"properties": {
+"tags-all": [],
+"raw-value": "Observaciones",
+"pre-blank": 0,
+"level": 3,
+"priority": null,
+"tags": [],
+"todo-keyword": null,
+"todo-type": null,
+"post-blank": 1,
+"footnote-section-p": false,
+"archivedp": false,
+"commentedp": false,
+"post-affiliated": 1192,
+"title": [
+"Observaciones"
+]
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "section",
+"ref": "orga7fb485",
+"properties": {
+"post-blank": 1,
+"post-affiliated": 1210
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "paragraph",
+"ref": "orgf0142a9",
+"properties": {
+"post-blank": 0,
+"post-affiliated": 1210
+},
+"contents": [
+"El porcentaje de agua resulta en general bajo.  Usé 195gs y resultó demasiada hidratación, con una masa dificil de manejar.\n"
+]
+}
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "headline",
+"ref": "org292767d",
+"drawer": {
+
+},
+"properties": {
+"tags-all": [],
+"raw-value": "Ingredientes",
+"pre-blank": 1,
+"level": 3,
+"priority": null,
+"tags": [],
+"todo-keyword": null,
+"todo-type": null,
+"post-blank": 0,
+"footnote-section-p": false,
+"archivedp": false,
+"commentedp": false,
+"post-affiliated": 1336,
+"title": [
+"Ingredientes"
+]
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "section",
+"ref": "org3b30029",
+"properties": {
+"post-blank": 1,
+"post-affiliated": 1358
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table",
+"ref": "orgde9ecdc",
+"properties": {
+"type": "org",
+"tblfm": null,
+"value": null,
+"post-blank": 0,
+"post-affiliated": 1358
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "orgfc85b5f",
+"properties": {
+"type": "rule",
+"post-blank": 0,
+"post-affiliated": 1358
+},
+"contents": []
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "orgfbc9703",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 1389
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org3e878f9",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"harina"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "orgba0dbaf",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"500gs"
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "orgec5b49b",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 1420
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org9aae975",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"agua"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org7cd4127",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"135gs"
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "orgbb6c6d4",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 1451
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org2fc8be2",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"poolish"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org3b2f2de",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"100gs"
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "org2cee6fd",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 1482
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org2bb2c2a",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"puré"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org1809976",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"120gs"
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "org96b36d8",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 1513
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "orgf0bca08",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"huevo"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org01db4dd",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"55gs"
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "org371ce3b",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 1544
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "orgf442cea",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"manteca"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org9df2f3a",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"30gs"
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "org3ac61a3",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 1575
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org8f24e6e",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"azúcar"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org93199c0",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"30gs"
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "org1d4e678",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 1606
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org712f56e",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"leche en polvo"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org41d766b",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"25gs"
+]
+}
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-row",
+"ref": "org7d074fc",
+"properties": {
+"type": "standard",
+"post-blank": 0,
+"post-affiliated": 1637
+},
+"contents": [
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "orgbeb0493",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"sal"
+]
+},
+{
+"$$data_type": "org-node",
+"type": "table-cell",
+"ref": "org61c6250",
+"properties": {
+"post-blank": 0
+},
+"contents": [
+"10gs"
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
 }

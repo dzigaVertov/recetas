@@ -3,124 +3,47 @@
 
 * Recetas
 
-** Nombre 
-Pan de papa para hamburguesas
+** Mousse de chocolate :receta:
 
-**  Instrucciones
-Hervir y pisar la papa.  Mezclar todos los ingredientes menos la manteca hasta que estén integrados.  Dejar reposar 10 minutos.  Amasar mientras se agrega la manteca.  Bolear trozos de 120gs y colocar en moldes enmantecados.  Pincelar con huevo y leche en partes iguales.  Dejar levar hasta que doblen en tamaño.  Es importante no hornear antes de que hayan terminado de levar para que no rompan en el horno.  Hornear por 15 minutos en el horno a 180ºC y un recipiente con agua en el horno.  Volver a pincelar al sacarlos del horno.  Tip Mica Musre: Para conservar la humedad en caso de freezar es mejor meter los panes al freezer cuando todavía están calientes.
+*** Nombre
+Mousse de chocolate
 
-** Observaciones
-El porcentaje de agua resulta en general bajo.  Usé 195gs y resultó demasiada hidratación, con una masa dificil de manejar.
+*** Instrucciones
+Hacer una rica mousse de chocolate
 
-** Ingredientes tabla
+*** Observaciones
+    Que te salga rica
+*** Ingredientes
 
-| ingrediente    | cantidad |
-|----------------+----------|
-| harina         | 500gs    |
-| agua           | 135gs    |
-| poolish        | 100gs    |
-| puré           | 120gs    |
-| huevo          | 55gs     |
-| manteca        | 30gs     |
-| azúcar         | 30gs     |
-| leche en polvo | 25gs     |
-| sal            | 10gs     |
+|-----------+-------|
+| Yemas     | 5u    |
+| Azúcar    | 70 gs |
+| Agua      | 50gs  |
+| Claras    | 5u    |
+| Manteca   | 100gs |
+| Chocolate | 250gs |
 
 
+** Pan de papa para hamburguesas                                     :receta:
+*** Nombre 
+ Pan de papa para hamburguesas
 
-#+begin_src js
-const fs = require('fs/promises');
+***  Instrucciones
+ Hervir y pisar la papa.  Mezclar todos los ingredientes menos la manteca hasta que estén integrados.  Dejar reposar 10 minutos.  Amasar mientras se agrega la manteca.  Bolear trozos de 120gs y colocar en moldes enmantecados.  Pincelar con huevo y leche en partes iguales.  Dejar levar hasta que doblen en tamaño.  Es importante no hornear antes de que hayan terminado de levar para que no rompan en el horno.  Hornear por 15 minutos en el horno a 180ºC y un recipiente con agua en el horno.  Volver a pincelar al sacarlos del horno.  Tip Mica Musre: Para conservar la humedad en caso de freezar es mejor meter los panes al freezer cuando todavía están calientes.
 
-let archivojson = fs.readFile('./db.json', {encoding: 'utf8'})
-    .then(res=>JSON.parse(res))
-    .then(res=> {
-        let primerNivel = res.contents[1];
-        // Ingredientes table ["contents"][1]["contents"][4]["properties"]["title"][0]
-        console.log(primerNivel.contents[3].properties.title[0]);
-        // 100gs
-        console.log(primerNivel.contents[3].contents[0].contents[0].contents[4].contents[1].contents[0]);
-        // 135gs
-        console.log(primerNivel.contents[3].contents[0].contents[0].contents[3].contents[1].contents[0]);
-        // 500gs
-console.log(primerNivel.contents[3].contents[0].contents[0].contents[2].contents[1].contents[0]);
+*** Observaciones
+ El porcentaje de agua resulta en general bajo.  Usé 195gs y resultó demasiada hidratación, con una masa dificil de manejar.
 
-        // 100gs
-        console.log(primerNivel.contents[3].contents[0].contents[0].contents[4].contents[0].contents[0]);
-        // 135gs
-        console.log(primerNivel.contents[3].contents[0].contents[0].contents[3].contents[0].contents[0]);
-        // 500gs
-console.log(primerNivel.contents[3].contents[0].contents[0].contents[2].contents[0].contents[0]);
-
-        let encabezados = [];
-        primerNivel.contents.forEach(elem=>(encabezados.push(elem.properties['raw-value'])));
-        encabezados.forEach(elem => {if(elem) console.log(elem);});
-
-        let textos = [];
-        primerNivel.contents.forEach(elem=> {
-            if ( elem.contents[0].contents[0]){
-                textos.push(elem.contents[0].contents[0]);
-            } else {
-                elem.contents.forEach(elem => console.log(elem.properties['raw-value']));
-            }
-            
-
-        });
-
-
-        textos.forEach(elem => {
-            if(elem) {
-                console.log(elem.contents[0]);
-                if (elem.properties.contents){
-                    console.log}(elem.properties.contents);
-                
-            } else {
-                console.log('no hay');
-            }
-        });
-    } );
-
-#+end_src
-
-#+RESULTS:
-#+begin_example
-undefinedIngredientes tabla
-100gs
-135gs
-500gs
-poolish
-agua
-harina
-Nombre
-Instrucciones
-Observaciones
-Ingredientes tabla
-Pan de papa para hamburguesas
-
-Hervir y pisar la papa.  Mezclar todos los ingredientes menos la manteca hasta que estén integrados.  Dejar reposar 10 minutos.  Amasar mientras se agrega la manteca.  Bolear trozos de 120gs y colocar en moldes enmantecados.  Pincelar con huevo y leche en partes iguales.  Dejar levar hasta que doblen en tamaño.  Es importante no hornear antes de que hayan terminado de levar para que no rompan en el horno.  Hornear por 15 minutos en el horno a 180ºC y un recipiente con agua en el horno.  Volver a pincelar al sacarlos del horno.  Tip Mica Musre: Para conservar la humedad en caso de freezar es mejor meter los panes al freezer cuando todavía están calientes.
-
-El porcentaje de agua resulta en general bajo.  Usé 195gs y resultó demasiada hidratación, con una masa dificil de manejar.
-
-{
-  '$$data_type': 'org-node',
-  type: 'table-row',
-  ref: 'org72dec2b',
-  properties: { type: 'standard', 'post-blank': 0, 'post-affiliated': 942 },
-  contents: [
-    {
-      '$$data_type': 'org-node',
-      type: 'table-cell',
-      ref: 'org625d91f',
-      properties: [Object],
-      contents: [Array]
-    },
-    {
-      '$$data_type': 'org-node',
-      type: 'table-cell',
-      ref: 'orgb793ac2',
-      properties: [Object],
-      contents: [Array]
-    }
-  ]
-}
-#+end_example
+*** Ingredientes
+    
+ |----------------+----------|
+ | harina         | 500gs    |
+ | agua           | 135gs    |
+ | poolish        | 100gs    |
+ | puré           | 120gs    |
+ | huevo          | 55gs     |
+ | manteca        | 30gs     |
+ | azúcar         | 30gs     |
+ | leche en polvo | 25gs     |
+ | sal            | 10gs     |
 
